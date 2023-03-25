@@ -37,6 +37,7 @@ const createBoxes = amount => {
 
 const destroyBoxes = event => {
   boxes.innerHTML = '';
+  number.value = '';
 };
 
 createBtn.addEventListener('click', onInputClick);
